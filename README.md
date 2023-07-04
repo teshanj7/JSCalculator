@@ -1,5 +1,5 @@
 # JSCalculator
-Repository for a JavaScript based calculator made for my own Javascript experience.
+Repository for a JavaScript based calculator made for my own Javascript practice.
 <p>With this basic simple JavaScript based calculator you can do basic mathematic operations such as Addition(+), Substraction(-), Mulitplication(*) and Divide(÷).</p>
 <h2>Author</h2>
 <ul>
