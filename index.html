@@ -15,20 +15,20 @@
         <form>
             <div class="RealCalc">
                 <h2 class="calcHeading">Number 1:</h2>
-                <input type="number" class="Number1" name="Number1" value="num1"/>
+                <input type="number" class="Number1" name="Number1" id="num1" value="num1"/>
                 <br/>
                 <h2 class="calcHeading">Number 2:</h2>
-                <input type="number" class="Number1" name="Number2" value="num2"/>
+                <input type="number" class="Number1" name="Number2" id="num2" value="num2"/>
                 <br/>
                 <button type="reset" class="BtnAC">AC</button>
                 <br/>
-                <button type="submit" class="BtnPlus">+</button>
-                <button type="submit" class="BtnMinus">-</button>
-                <button type="submit" class="BtnDivide">÷</button>
-                <button type="submit" class="BtnMultiply">X</button>
+                <button type="button" class="BtnPlus" onclick="addOperation()">+</button>
+                <button type="button" class="BtnMinus" onclick="minusOperation()">-</button>
+                <button type="button" class="BtnDivide" onclick="divideOperation()">÷</button>
+                <button type="button" class="BtnMultiply" onclick="multiplyOperation()">X</button>
                 <br/><br/>
                 <h2 class="calcHeading">Answer:</h2>
-                <input type="text" class="Number1" name="Number2"  readonly/>
+                <input type="text" class="Number1" name="Answer" id="answer" readonly/>
                 <br/><br/>
             </div>
 

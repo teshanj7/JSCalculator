@@ -1,5 +1,5 @@
 .Calculator{
-    background-color: #eaeda6;
+    background: linear-gradient(to right, #0cfa4c, #0c6ffa)
 }
 
 .PageHeading{
@@ -25,6 +25,8 @@
     height: 50px;
     border-radius: 20px;
     margin-left: 150px;
+    font-size: 40px;
+    text-align: center;
 }
 
 .BtnAC{
